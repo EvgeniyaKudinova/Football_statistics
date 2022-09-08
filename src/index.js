@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+//для того, чтобы роутинг был доступен, необход.импорт.компонент BrowserRouter, он как провайдер
+import { BrowserRouter } from 'react-router-dom'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -7,7 +9,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/*Сделали роутинг внутри App*/}
+    <BrowserRouter> 
+      <App />
+    </BrowserRouter>
+    
   </React.StrictMode>
 );
 
