@@ -1,0 +1,57 @@
+.Header {
+    text-align: center;
+  }
+  
+  header{
+    background-color: rgba(1, 97, 207, 0.993);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    height: 85px;
+  }
+  
+  .container{
+    display: flex;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .mainpage{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .teamspage{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .leaquespage{
+    display: block;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .mainpage:hover{
+    color: rgb(25, 118, 210);
+    background-color: aliceblue;
+    border-radius: 3px;
+  }
+  
+  .teamspage:hover{
+    color: rgb(25, 118, 210);
+    background-color: aliceblue;
+    border-radius: 3px;
+  }
+  
+  .leaquespage:hover{
+    color: rgb(25, 118, 210);
+    background-color: aliceblue;
+    border-radius: 3px;
+  }
+  
+  .text{
+    text-decoration: none;
+    color: white;
+  }
